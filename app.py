@@ -25,8 +25,6 @@ app.json_encoder = GerritJSONEncoder
 cache = Cache(app)
 gerrit = GerritServer(app.config['GERRIT_URL'])
 
-extras_data = json.loads(open(app.config['EXTRAS_BLOB'], "r").read())
-
 ##########################
 # jinja2 globals
 ##########################
@@ -114,26 +112,23 @@ def get_oem_device_mapping():
         with open(Config.DEVICES_JSON_PATH) as f:
             data = json.loads(f.read())
     else:
-        data = requests.get('https://raw.githubusercontent.com/LineageOS/hudson/master/updater/devices.json').json()
+        data = requests.get('https://raw.githubusercontent.com/AOSPA/updater/master/devices.json').json()
     if os.path.isfile('devices_local.json'):
         with open('devices_local.json') as f:
             data += json.loads(f.read())
     for device in data:
-        if device['model'] in devices:
-            oem_to_device.setdefault(device['oem'], []).append(device)
-            device_to_oem[device['model']] = device['oem']
-            offer_recovery[device['model']] = device.get('lineage_recovery', False)
-    return oem_to_device, device_to_oem, offer_recovery
+        if device['name'] in devices:
+            oem_to_device.setdefault(device['manufacturer'], []).append(device)
+            device_to_oem[device['name']] = device['manufacturer']
+    return oem_to_device, device_to_oem
 
 @cache.memoize()
 def get_build_types(device, romtype, after, version):
+    after = int(after)
     roms = get_device(device)
     roms = [x for x in roms if x['type'] == romtype]
-    for rom in roms:
-        rom['date'] = arrow.get(rom['date']).datetime
     if after:
-        after = arrow.get(after).datetime
-        roms = [x for x in roms if x['date'] > after]
+        roms = [x for x in roms if x['datetime'] > after]
     if version:
         roms = [x for x in roms if x['version'] == version]
 
@@ -161,20 +156,15 @@ def get_device_version(device):
 # API
 ##########################
 
-@app.route('/api/v1/<string:device>/<string:romtype>/<string:incrementalversion>')
+@app.route('/api/v1/<string:device>/<string:version>/<string:romtype>/<string:incrementalversion>')
 #cached via memoize on get_build_types
-def index(device, romtype, incrementalversion):
-    #pylint: disable=unused-argument
-    after = request.args.get("after")
-    version = request.args.get("version")
-
-    return get_build_types(device, romtype, after, version)
+def index(device, romtype, incrementalversion, version):
+    return get_build_types(device, romtype, incrementalversion, version)
 
 @app.route('/api/v1/types/<string:device>/')
 @cache.cached()
 def get_types(device):
     data = get_device(device)
-    types = set(['nightly'])
     for build in data:
         types.add(build['type'])
     return jsonify({'response': list(types)})
@@ -191,7 +181,7 @@ def changes(device='all', before=-1):
 @app.route('/')
 @cache.cached()
 def show_changelog(device='all', before=-1):
-    oem_to_devices, device_to_oem, _ = get_oem_device_mapping()
+    oem_to_devices, device_to_oem = get_oem_device_mapping()
     return render_template('changes.html', oem_to_devices=oem_to_devices, device_to_oem=device_to_oem, device=device, before=before, changelog=True)
 
 @app.route('/api/v1/devices')
@@ -218,20 +208,12 @@ def inject_year():
 @app.route("/<string:device>")
 @cache.cached()
 def web_device(device):
-    oem_to_devices, device_to_oem, offer_recovery = get_oem_device_mapping()
+    oem_to_devices, device_to_oem = get_oem_device_mapping()
     roms = get_device(device)[::-1]
-    has_recovery = any([True for rom in roms if 'recovery' in rom ]) and offer_recovery[device]
-
-    return render_template("device.html", device=device, oem_to_devices=oem_to_devices, device_to_oem=device_to_oem, roms=roms, has_recovery=has_recovery,
-                           wiki_info=app.config['WIKI_INFO_URL'], wiki_install=app.config['WIKI_INSTALL_URL'], download_base_url=app.config['DOWNLOAD_BASE_URL'])
+    for rom in roms:
+      rom['version'] = rom['version'][0].upper() + rom['version'][1:] + " " + rom['type'][0].upper() + rom['type'][1:] + " " + os.path.splitext(rom['filename'])[0].split("-")[2]
+    return render_template("device.html", device=device, oem_to_devices=oem_to_devices, device_to_oem=device_to_oem, roms=roms, download_base_url=app.config['DOWNLOAD_BASE_URL'])
 
 @app.route('/favicon.ico')
 def favicon():
     return ''
-
-@app.route("/extras")
-@cache.cached()
-def web_extras():
-    oem_to_devices, device_to_oem, _ = get_oem_device_mapping()
-
-    return render_template("extras.html", oem_to_devices=oem_to_devices, device_to_oem=device_to_oem, extras=True, data=extras_data)

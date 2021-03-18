@@ -16,5 +16,5 @@ services:
       - "./devices.json:/app/devices.json"
       - "./devices_local.json:/app/devices_local.json"
     environment: 
-      - UPSTREAM_URL=http://nginx/builds.json
-      - DOWNLOAD_BASE_URL=https://nginx/builds
+      - UPSTREAM_URL=http://updates.aospa.co/builds.json
+      - DOWNLOAD_BASE_URL=https://updates.aospa.co/builds
