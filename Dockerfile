@@ -6,16 +6,13 @@ ENV VERSION=$VERSION
 COPY . /app
 WORKDIR /app
 
-ENV GERRIT_URL "https://review.lineageos.org"
+ENV GERRIT_URL "https://gerrit.aospa.co"
 ENV CACHE_DEFAULT_TIMEOUT "3600"
 ENV CACHE_TYPE "simple"
 ENV CACHE_REDIS_HOST "redis"
 ENV CACHE_REDIS_DB 4
-ENV WIKI_INSTALL_URL "https://wiki.lineageos.org/devices/{device}/install"
-ENV WIKI_INFO_URL "https://wiki.lineageos.org/devices/{device}"
 ENV UPSTREAM_URL ""
-ENV DOWNLOAD_BASE_URL "https://mirrorbits.lineageos.org"
-ENV EXTRAS_BLOB "/app/extras.json"
+ENV DOWNLOAD_BASE_URL "https://updates.aospa.co"
 ENV FLASK_APP "app.py"
 
 RUN pip install -r requirements.txt
