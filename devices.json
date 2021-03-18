@@ -1,0 +1,55 @@
+{
+  "devices":
+  [
+    {
+      "name": "beryllium",
+      "description": "POCO F1",
+      "manufacturer": "Xiaomi"
+    },
+    {
+      "name": "dipper",
+      "description": "Mi 8",
+      "manufacturer": "Xiaomi"
+    },
+    {
+      "name": "ginkgo",
+      "description": "Redmi Note 8",
+      "manufacturer": "Xiaomi"
+    },
+    {
+      "name": "laurel_sprout",
+      "description": "Mi A3",
+      "manufacturer": "Xiaomi"
+    },
+    {
+      "name": "mini5g",
+      "description": "Mini 5G",
+      "manufacturer": "Nubia"
+    },
+    {
+      "name": "oneplus8",
+      "description": "8",
+      "manufacturer": "OnePlus"
+    },
+    {
+      "name": "oneplus8pro",
+      "description": "8 Pro",
+      "manufacturer": "OnePlus"
+    },
+    {
+      "name": "oneplus8t",
+      "description": "8T",
+      "manufacturer": "OnePlus"
+    },
+    {
+      "name": "polaris",
+      "description": "Mi MIX 2S",
+      "manufacturer": "Xiaomi"
+    },
+    {
+      "name": "surya",
+      "description": "POCO X3",
+      "manufacturer": "Xiaomi"
+    }
+  ]
+}
