@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>LineageOS Downloads</title>
+        <title>AOSPA Downloads</title>
         <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
         <link rel="stylesheet" href="/static/site.css">
@@ -16,7 +16,7 @@
     <body>
         <nav>
             <div class="nav-wrapper">
-                <a href="#!" class="brand-logo center">LineageOS Downloads</a>
+                <a href="#!" class="brand-logo center">AOSPA Downloads</a>
                 <ul id="slide-out" class="side-nav fixed">
                     <li>
                         <div class="userView">
@@ -41,16 +41,16 @@
                                         {% for d in oem_to_devices[oem] | sort(attribute='model')%}
                                         {% if d.model == device %}
                                         <li class="active teal">
-                                            <a class="device-link" href="/{{d.model}}">
-                                                <div>{{d.name}}</div>
-                                                <div class="device-model grey-text text-lighten-1">{{d.model}}</div>
+                                            <a class="device-link" href="/{{d.name}}">
+                                                <div>{{d.description}}</div>
+                                                <div class="device-model grey-text text-lighten-1">{{d.name}}</div>
                                             </a>
                                         </li>
                                         {% else %}
                                         <li>
-                                            <a class="device-link" href="/{{d.model}}">
-                                                <div>{{d.name}}</div>
-                                                <div class="device-model grey-text">{{d.model}}</div>
+                                            <a class="device-link" href="/{{d.name}}">
+                                                <div>{{d.description}}</div>
+                                                <div class="device-model grey-text">{{d.name}}</div>
                                             </a>
                                         </li>
                                         {% endif %}
@@ -60,19 +60,7 @@
                             </li>
                         </ul>
                     </li>
-
                     {% endfor %}
-                    <li class="no-padding">
-                        <ul class="collapsible collapsible-accordian">
-                            <li class="bold">
-                                {% if extras %}
-                                <a class="collapsible-header waves-effect waves-teal bold active" href="/extras">Extras</a>
-                                {% else %}
-                                <a class="collapsible-header waves-effect waves-teal bold" href="/extras">Extras</a>
-                                {% endif %}
-                            </li>
-                        </ul>
-                    </li>
                 </ul>
                 <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
             </div>
