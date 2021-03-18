@@ -7,14 +7,6 @@
             <div class="card-panel">
                 <h4>Builds for {{device}}</h4>
                 <a href="/{{device}}/changes/">Recent changes</a>
-                {% if wiki_info %}
-                &bull;
-                <a href="{{wiki_info.format(device=device)}}" target="_blank">Device info</a>
-                {% endif %}
-                {% if wiki_install %}
-                &bull;
-                <a href="{{wiki_install.format(device=device)}}" target="_blank">Installation instructions</a>
-                {% endif %}
                 <div class="scrollable-table">
                     <table class="striped bordered">
                         <thead>
@@ -23,10 +15,6 @@
                                 <th>Version</th>
                                 <th>File</th>
                                 <th>Size</th>
-                                {% if has_recovery %}
-                                <th>Recovery image</th>
-                                <th>Recovery size </th>
-                                {% endif %}
                                 <th>Date</th>
                             </tr>
                         </thead>
@@ -39,16 +27,6 @@
                                     <a href="{{download_base_url}}{{rom.filepath}}">{{rom.filename}}</a> <br /><small><a href="{{download_base_url}}{{rom.filepath}}?sha256">sha256</a></small>
                                 </td>
                                 <td>{{(rom.size / 1024 / 1024) | round(2)}} MB</td>
-                                {% if has_recovery and rom.recovery %}
-                                <td>
-                                    <a href="{{download_base_url}}{{rom.recovery.filepath}}">{{rom.recovery.filename}}</a><br />
-                                    <small><a href="{{download_base_url}}{{rom.recovery.filepath}}?sha256">sha256</a></small>
-                                </td>
-                                <td>{{(rom.recovery.size / 1024 / 1024) | round(2)}} MB </td>
-                                {% elif has_recovery %}
-                                <td></td>
-                                <td></td>
-                                {% endif %}
                                 <td>{{rom.date}}</td>
                             </tr>
                             {% endfor %}
