@@ -5,7 +5,6 @@ __pycache__
 
 #json blobs
 devices_local.json
-devices.json
 device_deps.json
 
 #virtualenv
