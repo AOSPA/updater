@@ -1,0 +1,170 @@
+{
+  "devices":
+  [
+    {
+      "name": "X00TD",
+      "description": "Zenfone Max Pro M1",
+      "manufacturer": "Asus"
+    },
+    {
+      "name": "X01BD",
+      "description": "Zenfone Max Pro M2",
+      "manufacturer": "Asus"
+    },
+    {
+      "name": "mata",
+      "description": "PH1",
+      "manufacturer": "Essential"
+    },
+    {
+      "name": "A6020",
+      "description": "Vibe K5/Plus",
+      "manufacturer": "Lenovo"
+    },
+    {
+      "name": "oneplus3",
+      "description": "3/3T",
+      "manufacturer": "OnePlus"
+    },
+    {
+      "name": "oneplus5",
+      "description": "5/5T",
+      "manufacturer": "OnePlus"
+    },
+    {
+      "name": "oneplus6",
+      "description": "6/6T",
+      "manufacturer": "OnePlus"
+    },
+    {
+      "name": "oneplus7pro",
+      "description": "7 Pro",
+      "manufacturer": "OnePlus"
+    },
+    {
+      "name": "oneplus7tpro",
+      "description": "7T Pro",
+      "manufacturer": "OnePlus"
+    },
+    {
+      "name": "beryllium",
+      "description": "F1",
+      "manufacturer": "Pocophone"
+    },
+    {
+      "name": "hltechn",
+      "description": "Galaxy Note 3 China",
+      "manufacturer": "Samsung"
+    },
+    {
+      "name": "hlte",
+      "description": "Galaxy Note 3 GSM/Sprint",
+      "manufacturer": "Samsung"
+    },
+    {
+      "name": "hltekor",
+      "description": "Galaxy Note 3 Korea",
+      "manufacturer": "Samsung"
+    },
+    {
+      "name": "hltetmo",
+      "description": "Galaxy Note 3 T-Mobile/Verizon",
+      "manufacturer": "Samsung"
+    },
+    {
+      "name": "jasmine_sprout",
+      "description": "Mi A2",
+      "manufacturer": "Xiaomi"
+    },
+    {
+      "name": "laurel_sprout",
+      "description": "Mi A3",
+      "manufacturer": "Xiaomi"
+    },
+    {
+      "name": "sagit",
+      "description": "Mi 6",
+      "manufacturer": "Xiaomi"
+    },
+    {
+      "name": "wayne",
+      "description": "Mi 6X",
+      "manufacturer": "Xiaomi"
+    },
+    {
+      "name": "dipper",
+      "description": "Mi 8",
+      "manufacturer": "Xiaomi"
+    },
+    {
+      "name": "equuleus",
+      "description": "Mi 8 Pro",
+      "manufacturer": "Xiaomi"
+    },
+    {
+      "name": "cepheus",
+      "description": "Mi 9",
+      "manufacturer": "Xiaomi"
+    },
+    {
+      "name": "davinci",
+      "description": "Mi 9T / Redmi K20",
+      "manufacturer": "Xiaomi"
+    },
+    {
+      "name": "raphael",
+      "description": "Mi 9T Pro / Redmi K20 Pro",
+      "manufacturer": "Xiaomi"
+    },
+    {
+      "name": "chiron",
+      "description": "Mi MIX 2",
+      "manufacturer": "Xiaomi"
+    },
+    {
+      "name": "polaris",
+      "description": "Mi MIX 2S",
+      "manufacturer": "Xiaomi"
+    },
+    {
+      "name": "land",
+      "description": "Redmi 3S",
+      "manufacturer": "Xiaomi"
+    },
+    {
+      "name": "rolex",
+      "description": "Redmi 4A",
+      "manufacturer": "Xiaomi"
+    },
+    {
+      "name": "rosy",
+      "description": "Redmi 5",
+      "manufacturer": "Xiaomi"
+    },
+    {
+      "name": "sakura",
+      "description": "Redmi 6 Pro",
+      "manufacturer": "Xiaomi"
+    },
+    {
+      "name": "onc",
+      "description": "Redmi 7/Y3",
+      "manufacturer": "Xiaomi"
+    },
+    {
+      "name": "whyred",
+      "description": "Redmi Note 5/Pro",
+      "manufacturer": "Xiaomi"
+    },
+    {
+      "name": "lavender",
+      "description": "Redmi Note 7",
+      "manufacturer": "Xiaomi"
+    },
+    {
+      "name": "ginkgo",
+      "description": "Redmi Note 8/8T",
+      "manufacturer": "Xiaomi"
+    }
+  ]
+}
