@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a571cd9a_b3db2cf7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000509
+      },
+      "writtenOn": "2021-03-18T17:59:56Z",
+      "side": 1,
+      "message": "I think that you need to sort not by the device code name, but by its just device name",
+      "revId": "cdec13a346ac0e7a2259c5b74a1b021c81675170",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
