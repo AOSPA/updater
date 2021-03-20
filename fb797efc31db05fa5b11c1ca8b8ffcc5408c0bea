@@ -52,6 +52,24 @@
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "84b27dca_87d39526",
+        "filename": "app.py",
+        "patchSetId": 10
+      },
+      "lineNbr": 127,
+      "author": {
+        "id": 1000427
+      },
+      "writtenOn": "2021-03-20T22:56:38Z",
+      "side": 1,
+      "message": "we have more precise information since PA version only has date and we have better information in the datetime field",
+      "parentUuid": "a5c75080_b0a47d44",
+      "revId": "fb797efc31db05fa5b11c1ca8b8ffcc5408c0bea",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a551128e_406ab40c",
@@ -65,6 +83,24 @@
       "writtenOn": "2021-03-20T16:30:02Z",
       "side": 1,
       "message": "version is not defined.",
+      "revId": "fb797efc31db05fa5b11c1ca8b8ffcc5408c0bea",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6967ab8d_c2c8319c",
+        "filename": "app.py",
+        "patchSetId": 10
+      },
+      "lineNbr": 159,
+      "author": {
+        "id": 1000427
+      },
+      "writtenOn": "2021-03-20T22:56:38Z",
+      "side": 1,
+      "message": "will do",
+      "parentUuid": "a551128e_406ab40c",
       "revId": "fb797efc31db05fa5b11c1ca8b8ffcc5408c0bea",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     },
@@ -86,6 +122,24 @@
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ff5be2e2_106c8a65",
+        "filename": "app.py",
+        "patchSetId": 10
+      },
+      "lineNbr": 165,
+      "author": {
+        "id": 1000427
+      },
+      "writtenOn": "2021-03-20T22:56:38Z",
+      "side": 1,
+      "message": "this will return all available build types",
+      "parentUuid": "18613781_b576af39",
+      "revId": "fb797efc31db05fa5b11c1ca8b8ffcc5408c0bea",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "3b02c259_6a77f3a7",
@@ -99,6 +153,24 @@
       "writtenOn": "2021-03-20T16:30:02Z",
       "side": 1,
       "message": "we shouldn\u0027t be doing any sort of messing with the rom array here. Make sure the version is the proper format when created.",
+      "revId": "fb797efc31db05fa5b11c1ca8b8ffcc5408c0bea",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ab15ce88_ccfa1275",
+        "filename": "app.py",
+        "patchSetId": 10
+      },
+      "lineNbr": 211,
+      "author": {
+        "id": 1000427
+      },
+      "writtenOn": "2021-03-20T22:56:38Z",
+      "side": 1,
+      "message": "the rom array determines endpoint URL, so we have to modify the array here to present it nicely for UI",
+      "parentUuid": "3b02c259_6a77f3a7",
       "revId": "fb797efc31db05fa5b11c1ca8b8ffcc5408c0bea",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     },
