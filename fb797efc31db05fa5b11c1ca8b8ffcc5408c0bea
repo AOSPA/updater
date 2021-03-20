@@ -1,0 +1,140 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2b45fd7c_fd685976",
+        "filename": "app.py",
+        "patchSetId": 10
+      },
+      "lineNbr": 115,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2021-03-20T16:30:02Z",
+      "side": 1,
+      "message": "This needs to point to our devices.json",
+      "revId": "fb797efc31db05fa5b11c1ca8b8ffcc5408c0bea",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a39ebe38_c582d94b",
+        "filename": "app.py",
+        "patchSetId": 10
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2021-03-20T16:30:02Z",
+      "side": 1,
+      "message": "We should still support local override as in lineage code.",
+      "revId": "fb797efc31db05fa5b11c1ca8b8ffcc5408c0bea",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a5c75080_b0a47d44",
+        "filename": "app.py",
+        "patchSetId": 10
+      },
+      "lineNbr": 127,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2021-03-20T16:30:02Z",
+      "side": 1,
+      "message": "I\u0027m not sure why this code was modified. The original code would work fine.",
+      "revId": "fb797efc31db05fa5b11c1ca8b8ffcc5408c0bea",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a551128e_406ab40c",
+        "filename": "app.py",
+        "patchSetId": 10
+      },
+      "lineNbr": 159,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2021-03-20T16:30:02Z",
+      "side": 1,
+      "message": "version is not defined.",
+      "revId": "fb797efc31db05fa5b11c1ca8b8ffcc5408c0bea",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "18613781_b576af39",
+        "filename": "app.py",
+        "patchSetId": 10
+      },
+      "lineNbr": 165,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2021-03-20T16:30:02Z",
+      "side": 1,
+      "message": "we should support other types (beta/alpha)",
+      "revId": "fb797efc31db05fa5b11c1ca8b8ffcc5408c0bea",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3b02c259_6a77f3a7",
+        "filename": "app.py",
+        "patchSetId": 10
+      },
+      "lineNbr": 211,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2021-03-20T16:30:02Z",
+      "side": 1,
+      "message": "we shouldn\u0027t be doing any sort of messing with the rom array here. Make sure the version is the proper format when created.",
+      "revId": "fb797efc31db05fa5b11c1ca8b8ffcc5408c0bea",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "64b6780e_28e0bbbd",
+        "filename": "docker-compose.yml",
+        "patchSetId": 10
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2021-03-20T16:30:02Z",
+      "side": 1,
+      "message": "This should also point to updates.aospa.co",
+      "revId": "fb797efc31db05fa5b11c1ca8b8ffcc5408c0bea",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3743ad4d_811425ec",
+        "filename": "nginx/default.conf",
+        "patchSetId": 10
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2021-03-20T16:30:02Z",
+      "side": 1,
+      "message": "No need to change this. I will not be using the nginx container",
+      "revId": "fb797efc31db05fa5b11c1ca8b8ffcc5408c0bea",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
