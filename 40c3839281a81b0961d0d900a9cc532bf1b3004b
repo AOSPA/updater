@@ -16,6 +16,24 @@
       "message": "As written, major_version is assigned ruby and version is assigned 1. Later on, you don\u0027t use the version component at all, filling the version field with major_version. This is not the correct behavior. The combination of the branch (ruby) and the release version (1) make up the complete version.",
       "revId": "40c3839281a81b0961d0d900a9cc532bf1b3004b",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7705f9dc_1a45e42f",
+        "filename": "gen_mirror_json.py",
+        "patchSetId": 5
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1000427
+      },
+      "writtenOn": "2021-03-20T21:33:00Z",
+      "side": 1,
+      "message": "I unfortunately have to do it like this so the updater app can ping the endpoint correctly",
+      "parentUuid": "b107068c_e323e708",
+      "revId": "40c3839281a81b0961d0d900a9cc532bf1b3004b",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
