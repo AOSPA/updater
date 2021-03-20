@@ -16,6 +16,24 @@
       "message": "I think that you need to sort not by the device code name, but by its just device name",
       "revId": "cdec13a346ac0e7a2259c5b74a1b021c81675170",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c39c52c2_fae40e91",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2021-03-20T16:14:29Z",
+      "side": 1,
+      "message": "I agree, sort by mfg, then device name, not by codename.",
+      "parentUuid": "a571cd9a_b3db2cf7",
+      "revId": "cdec13a346ac0e7a2259c5b74a1b021c81675170",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
