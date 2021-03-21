@@ -38,6 +38,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "f0a2f838_e50917f8",
+        "filename": "app.py",
+        "patchSetId": 10
+      },
+      "lineNbr": 115,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2021-03-21T01:15:13Z",
+      "side": 1,
+      "message": "You can do it now, we\u0027ll merge in the proper order.",
+      "parentUuid": "39ba20bd_eed7df20",
+      "revId": "fb797efc31db05fa5b11c1ca8b8ffcc5408c0bea",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "a39ebe38_c582d94b",
         "filename": "app.py",
         "patchSetId": 10
@@ -102,6 +120,24 @@
       "side": 1,
       "message": "we have more precise information since PA version only has date and we have better information in the datetime field",
       "parentUuid": "a5c75080_b0a47d44",
+      "revId": "fb797efc31db05fa5b11c1ca8b8ffcc5408c0bea",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f77d07a4_61a182e5",
+        "filename": "app.py",
+        "patchSetId": 10
+      },
+      "lineNbr": 127,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2021-03-21T01:15:13Z",
+      "side": 1,
+      "message": "I am not sure what you mean. PA versions have branch, major # and build date. Lineage uses a similar format with major.minor and the date. We should not need to change the version handling in any substantial way.",
+      "parentUuid": "84b27dca_87d39526",
       "revId": "fb797efc31db05fa5b11c1ca8b8ffcc5408c0bea",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     },
@@ -194,6 +230,24 @@
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ba808bf3_88caea72",
+        "filename": "app.py",
+        "patchSetId": 10
+      },
+      "lineNbr": 165,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2021-03-21T01:15:13Z",
+      "side": 1,
+      "message": "Does the OTA app handle using beta/alpha as an opt-in condition?",
+      "parentUuid": "ff5be2e2_106c8a65",
+      "revId": "fb797efc31db05fa5b11c1ca8b8ffcc5408c0bea",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "3b02c259_6a77f3a7",
@@ -225,6 +279,24 @@
       "side": 1,
       "message": "the rom array determines endpoint URL, so we have to modify the array here to present it nicely for UI",
       "parentUuid": "3b02c259_6a77f3a7",
+      "revId": "fb797efc31db05fa5b11c1ca8b8ffcc5408c0bea",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ce1e7cd3_1ec354a5",
+        "filename": "app.py",
+        "patchSetId": 10
+      },
+      "lineNbr": 211,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2021-03-21T01:15:13Z",
+      "side": 1,
+      "message": "The UI should present the same version as normal. It doesn\u0027t need to be pretty-printed.",
+      "parentUuid": "ab15ce88_ccfa1275",
       "revId": "fb797efc31db05fa5b11c1ca8b8ffcc5408c0bea",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     },
