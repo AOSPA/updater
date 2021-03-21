@@ -54,6 +54,24 @@
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e5d806f1_8ede31ec",
+        "filename": "app.py",
+        "patchSetId": 10
+      },
+      "lineNbr": 115,
+      "author": {
+        "id": 1000427
+      },
+      "writtenOn": "2021-03-21T01:41:22Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f0a2f838_e50917f8",
+      "revId": "fb797efc31db05fa5b11c1ca8b8ffcc5408c0bea",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a39ebe38_c582d94b",
@@ -138,6 +156,24 @@
       "side": 1,
       "message": "I am not sure what you mean. PA versions have branch, major # and build date. Lineage uses a similar format with major.minor and the date. We should not need to change the version handling in any substantial way.",
       "parentUuid": "84b27dca_87d39526",
+      "revId": "fb797efc31db05fa5b11c1ca8b8ffcc5408c0bea",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d23d587c_5330574c",
+        "filename": "app.py",
+        "patchSetId": 10
+      },
+      "lineNbr": 127,
+      "author": {
+        "id": 1000427
+      },
+      "writtenOn": "2021-03-21T01:41:22Z",
+      "side": 1,
+      "message": "issue described on #211",
+      "parentUuid": "f77d07a4_61a182e5",
       "revId": "fb797efc31db05fa5b11c1ca8b8ffcc5408c0bea",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     },
@@ -248,6 +284,24 @@
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e4ed8dfd_59e7f6ca",
+        "filename": "app.py",
+        "patchSetId": 10
+      },
+      "lineNbr": 165,
+      "author": {
+        "id": 1000427
+      },
+      "writtenOn": "2021-03-21T01:41:22Z",
+      "side": 1,
+      "message": "it\u0027ll update to whatever is in the json, but i can have it able to switch between alpha/beta",
+      "parentUuid": "ba808bf3_88caea72",
+      "revId": "fb797efc31db05fa5b11c1ca8b8ffcc5408c0bea",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "3b02c259_6a77f3a7",
@@ -297,6 +351,24 @@
       "side": 1,
       "message": "The UI should present the same version as normal. It doesn\u0027t need to be pretty-printed.",
       "parentUuid": "ab15ce88_ccfa1275",
+      "revId": "fb797efc31db05fa5b11c1ca8b8ffcc5408c0bea",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bcb5654e_540a551e",
+        "filename": "app.py",
+        "patchSetId": 10
+      },
+      "lineNbr": 211,
+      "author": {
+        "id": 1000427
+      },
+      "writtenOn": "2021-03-21T01:41:22Z",
+      "side": 1,
+      "message": "the ota app is using a syntax like mata/ruby/alpha/\u003cdate\u003e, so mata/ruby1/alpha/\u003cdata\u003e wouldn\u0027t be ideal imo",
+      "parentUuid": "ce1e7cd3_1ec354a5",
       "revId": "fb797efc31db05fa5b11c1ca8b8ffcc5408c0bea",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     },
