@@ -20,6 +20,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "39ba20bd_eed7df20",
+        "filename": "app.py",
+        "patchSetId": 10
+      },
+      "lineNbr": 115,
+      "author": {
+        "id": 1000427
+      },
+      "writtenOn": "2021-03-21T00:38:04Z",
+      "side": 1,
+      "message": "will address once the devices.json gets merged into the repo.",
+      "parentUuid": "2b45fd7c_fd685976",
+      "revId": "fb797efc31db05fa5b11c1ca8b8ffcc5408c0bea",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "a39ebe38_c582d94b",
         "filename": "app.py",
         "patchSetId": 10
@@ -31,6 +49,24 @@
       "writtenOn": "2021-03-20T16:30:02Z",
       "side": 1,
       "message": "We should still support local override as in lineage code.",
+      "revId": "fb797efc31db05fa5b11c1ca8b8ffcc5408c0bea",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "df7366cd_eb7ebf43",
+        "filename": "app.py",
+        "patchSetId": 10
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 1000427
+      },
+      "writtenOn": "2021-03-21T00:38:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a39ebe38_c582d94b",
       "revId": "fb797efc31db05fa5b11c1ca8b8ffcc5408c0bea",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     },
@@ -101,6 +137,24 @@
       "side": 1,
       "message": "will do",
       "parentUuid": "a551128e_406ab40c",
+      "revId": "fb797efc31db05fa5b11c1ca8b8ffcc5408c0bea",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "30d97596_8ae0d3c9",
+        "filename": "app.py",
+        "patchSetId": 10
+      },
+      "lineNbr": 159,
+      "author": {
+        "id": 1000427
+      },
+      "writtenOn": "2021-03-21T00:38:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6967ab8d_c2c8319c",
       "revId": "fb797efc31db05fa5b11c1ca8b8ffcc5408c0bea",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     },
@@ -192,6 +246,24 @@
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "83d22ba1_57354c69",
+        "filename": "docker-compose.yml",
+        "patchSetId": 10
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1000427
+      },
+      "writtenOn": "2021-03-21T00:38:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "64b6780e_28e0bbbd",
+      "revId": "fb797efc31db05fa5b11c1ca8b8ffcc5408c0bea",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "3743ad4d_811425ec",
@@ -205,6 +277,24 @@
       "writtenOn": "2021-03-20T16:30:02Z",
       "side": 1,
       "message": "No need to change this. I will not be using the nginx container",
+      "revId": "fb797efc31db05fa5b11c1ca8b8ffcc5408c0bea",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a9a32918_6061ac6b",
+        "filename": "nginx/default.conf",
+        "patchSetId": 10
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1000427
+      },
+      "writtenOn": "2021-03-21T00:38:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3743ad4d_811425ec",
       "revId": "fb797efc31db05fa5b11c1ca8b8ffcc5408c0bea",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
