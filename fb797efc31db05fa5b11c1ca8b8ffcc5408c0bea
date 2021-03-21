@@ -302,6 +302,24 @@
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "089703b8_475a26bf",
+        "filename": "app.py",
+        "patchSetId": 10
+      },
+      "lineNbr": 165,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2021-03-21T02:23:48Z",
+      "side": 1,
+      "message": "We need to have the capability to serve alpha and beta releases on the API side without the app considering them for updates unless the user opts-in. That\u0027s something we haven\u0027t been able to do with the legacy api.",
+      "parentUuid": "e4ed8dfd_59e7f6ca",
+      "revId": "fb797efc31db05fa5b11c1ca8b8ffcc5408c0bea",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "3b02c259_6a77f3a7",
@@ -369,6 +387,24 @@
       "side": 1,
       "message": "the ota app is using a syntax like mata/ruby/alpha/\u003cdate\u003e, so mata/ruby1/alpha/\u003cdata\u003e wouldn\u0027t be ideal imo",
       "parentUuid": "ce1e7cd3_1ec354a5",
+      "revId": "fb797efc31db05fa5b11c1ca8b8ffcc5408c0bea",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d1e0efce_cd114338",
+        "filename": "app.py",
+        "patchSetId": 10
+      },
+      "lineNbr": 211,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2021-03-21T02:23:48Z",
+      "side": 1,
+      "message": "rom[\u0027version\u0027] will already be in the proper hypenated format, not the endpoint format.",
+      "parentUuid": "bcb5654e_540a551e",
       "revId": "fb797efc31db05fa5b11c1ca8b8ffcc5408c0bea",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     },
