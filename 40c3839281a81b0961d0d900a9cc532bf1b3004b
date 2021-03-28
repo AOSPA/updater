@@ -88,6 +88,24 @@
       "parentUuid": "649a7cd2_85a668ca",
       "revId": "40c3839281a81b0961d0d900a9cc532bf1b3004b",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2ead50e4_5a06d16b",
+        "filename": "gen_mirror_json.py",
+        "patchSetId": 5
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1000427
+      },
+      "writtenOn": "2021-03-28T23:57:00Z",
+      "side": 1,
+      "message": "okay, will simplify the in-app code and fix this version.",
+      "parentUuid": "723e28ce_e03e4d70",
+      "revId": "40c3839281a81b0961d0d900a9cc532bf1b3004b",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
