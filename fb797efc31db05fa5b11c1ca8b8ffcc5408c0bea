@@ -320,6 +320,24 @@
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "2d55059d_83badd24",
+        "filename": "app.py",
+        "patchSetId": 10
+      },
+      "lineNbr": 165,
+      "author": {
+        "id": 1000427
+      },
+      "writtenOn": "2021-03-28T23:39:44Z",
+      "side": 1,
+      "message": "We can, since the app checks its own build type and the api only returns matching buildtypes. I can add the option to change channels to the app, and the API should be okay with that.",
+      "parentUuid": "089703b8_475a26bf",
+      "revId": "fb797efc31db05fa5b11c1ca8b8ffcc5408c0bea",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "3b02c259_6a77f3a7",
@@ -405,6 +423,24 @@
       "side": 1,
       "message": "rom[\u0027version\u0027] will already be in the proper hypenated format, not the endpoint format.",
       "parentUuid": "bcb5654e_540a551e",
+      "revId": "fb797efc31db05fa5b11c1ca8b8ffcc5408c0bea",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fb54aacc_11a7f3f4",
+        "filename": "app.py",
+        "patchSetId": 10
+      },
+      "lineNbr": 211,
+      "author": {
+        "id": 1000427
+      },
+      "writtenOn": "2021-03-28T23:39:44Z",
+      "side": 1,
+      "message": "yeah",
+      "parentUuid": "d1e0efce_cd114338",
       "revId": "fb797efc31db05fa5b11c1ca8b8ffcc5408c0bea",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     },
