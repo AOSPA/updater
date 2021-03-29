@@ -25,6 +25,16 @@
     "manufacturer": "Xiaomi"
   },
   {
+    "name": "ursa",
+    "description": "Mi 8 Explorer Edition",
+    "manufacturer": "Xiaomi"
+  },
+  {
+    "name": "equuleus",
+    "description": "Mi 8 Pro",
+    "manufacturer": "Xiaomi"
+  },
+  {
     "name": "laurel_sprout",
     "description": "Mi A3",
     "manufacturer": "Xiaomi"
@@ -32,6 +42,11 @@
   {
     "name": "polaris",
     "description": "Mi MIX 2S",
+    "manufacturer": "Xiaomi"
+  },
+  {
+    "name": "perseus",
+    "description": "Mi MIX 3",
     "manufacturer": "Xiaomi"
   },
   {
