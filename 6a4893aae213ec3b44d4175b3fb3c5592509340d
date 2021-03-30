@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "77ee5c6f_175b2859",
+        "filename": "gen_mirror_json.py",
+        "patchSetId": 7
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2021-03-30T03:00:01Z",
+      "side": 1,
+      "message": "We already did the split work, use the split out variables from line 26 to build the version here.",
+      "revId": "6a4893aae213ec3b44d4175b3fb3c5592509340d",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
