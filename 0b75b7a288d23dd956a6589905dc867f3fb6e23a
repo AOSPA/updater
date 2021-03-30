@@ -16,6 +16,23 @@
       "message": "Seems legit",
       "revId": "0b75b7a288d23dd956a6589905dc867f3fb6e23a",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7ae0f911_e1ea2012",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000427
+      },
+      "writtenOn": "2021-03-30T02:57:28Z",
+      "side": 1,
+      "message": "lgtm",
+      "revId": "0b75b7a288d23dd956a6589905dc867f3fb6e23a",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
