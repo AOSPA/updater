@@ -1,5 +1,10 @@
 [
   {
+    "name": "mata",
+    "description": "PH-1",
+    "manufacturer": "Essential"
+  },
+  {
     "name": "mini5g",
     "description": "Mini 5G",
     "manufacturer": "Nubia"
