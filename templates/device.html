@@ -11,6 +11,7 @@
                         <thead>
                             <tr>
                                 <th>Version</th>
+                                <th>Type</th>
                                 <th>File</th>
                                 <th>Size</th>
                                 <th>Date</th>
@@ -20,6 +21,7 @@
                             {% for rom in roms %}
                             <tr>
                                 <td>{{rom.version}}</td>
+                                <td>{{rom.type}}</td>
                                 <td>
                                     <a href="{{download_base_url}}{{rom.filepath}}">{{rom.filename}}</a> <br /><small>sha256: <code>{{rom.sha256}}</code></small>
                                 </td>
