@@ -38,8 +38,8 @@
                                 {% endif %}
                                 <div class="collapsible-body">
                                     <ul>
-                                        {% for d in oem_to_devices[oem] | sort(attribute='model')%}
-                                        {% if d.model == device %}
+                                        {% for d in oem_to_devices[oem] | sort(attribute='description')%}
+                                        {% if d.name == device %}
                                         <li class="active teal">
                                             <a class="device-link" href="/{{d.name}}">
                                                 <div>{{d.description}}</div>
