@@ -1,12 +1,5 @@
 version: "2"
 services:
-  nginx:
-    build: ./nginx
-    ports:
-      - "80:80"
-    volumes:
-      - "./nginx/builds:/builds"
-      - "./nginx/builds.json:/builds.json"
   updater:
     build: .
     ports: 
@@ -16,5 +9,5 @@ services:
       - "./devices.json:/app/devices.json"
       - "./devices_local.json:/app/devices_local.json"
     environment: 
-      - UPSTREAM_URL=http://updates.aospa.co/builds.json
-      - DOWNLOAD_BASE_URL=https://updates.aospa.co/builds
+      - UPSTREAM_URL=https://build.aospa.co/builds.json
+      - DOWNLOAD_BASE_URL=https://build.aospa.co/prerelease/
